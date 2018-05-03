@@ -1,0 +1,791 @@
+/* == THEME */
+
+
+/* Default */
+#container,.homeDefault { background-color: #3e516a;}
+#themeTop, .homeDefault .themeTop, .regTpl3 #container, .registration #container, .aboutUs #container, .help #container, .register #container, .activation #container,.login #container, .recruitment #container,
+.new_registration #container, .signIn #container, .signUp2 #container, .signUp #container, .desactivateAcc #container { background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171115_int_hmePage_containerTop); background-repeat: no-repeat;}
+#themeTop.themeTopBlur, .homeDefault .themeTopBlur { background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171115_int_hmePage_containerTop?qlt=80&op_blur=20) 0 0 no-repeat;}
+#themeBtm, .homeDefault { background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171115_int_hmePage_containerBtm); background-position: 0 bottom;background-repeat: no-repeat;}
+.backHme { background: url(//vp-eu.scene7.com/is//image/vpeu/00_20161213_int_hmePage_return) 50% 50% no-repeat;}
+/* Black Segmentation
+.salesWrapTitle,.homeDefault .wrapperSalesTitle{color:#464650;}
+.salesWrapBar,.homeDefault .wrapperSalesTitle::after{background-color: #464650;}
+#news h1 span{background-position:0 -150px;}
+#lastTime h1 span{background-position:-60px -150px;}
+#currently h1 span{background-position:-30px -150px;}
+#soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation*/
+.salesWrapTitle,.homeDefault .wrapperSalesTitle{color:#ffffff;}
+.salesWrapBar,.homeDefault .wrapperSalesTitle::after{background-color: #ffffff;}
+#news h1 span{background-position:0 -180px;}
+#lastTime h1 span{background-position:-60px -180px;}
+#currently h1 span{background-position:-30px -180px;}
+#soon h1 span{background-position:-90px -180px;}
+
+/* Default FR
+.fr #container,.fr .homeDefault { background-color: #c5ebf4;}
+.fr #themeTop, .fr .homeDefault .themeTop, .fr.registration #container, .fr.aboutUs #container, .fr.help #container, .fr.register #container, .fr.activation #container, .fr.login #container, .fr.recruitment #container, .fr.new_registration #container, .fr.signIn #container, .fr.signUp2 #container, .fr.signUp #container, .fr.desactivateAcc #container { background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170404_fr_hmePage_containerTop); background-repeat: no-repeat;}
+.fr #themeTop.themeTopBlur, .fr .homeDefault .themeTopBlur { background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170404_fr_hmePage_containerTop?qlt=80&op_blur=20) 0 0 no-repeat;}
+.fr #themeBtm, .fr .homeDefault { background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170404_fr_hmePage_containerBtm); background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .hmePage #themeMiddle, .fr .homeDefault .themeMiddleNormal{ display: block; background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170404_fr_hmePage_containerMiddle?$PNG$) no-repeat;}
+.fr .homeDefault .themeMiddleBlur { display: block; background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170404_fr_hmePage_containerMiddle?$PNG$&qlt=80&op_blur=20) no-repeat;}
+.fr .backHme { background: url(//vp-eu.scene7.com/is//image/vpeu/00_20161213_int_hmePage_return) 50% 50% no-repeat;}*/
+/* Black Segmentation
+.fr .salesWrapTitle,.fr .homeDefault .wrapperSalesTitle{color:#464650;}
+.fr .salesWrapBar,.fr .homeDefault .wrapperSalesTitle::after{background-color: #464650;}
+.fr #news h1 span{background-position:0 -150px;}
+.fr #lastTime h1 span{background-position:-60px -150px;}
+.fr #currently h1 span{background-position:-30px -150px;}
+.fr #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .salesWrapTitle,.fr .homeDefault .wrapperSalesTitle{color:#ffffff;}
+.fr .salesWrapBar,.fr .homeDefault .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr #news h1 span{background-position:0 -180px;}
+.fr #lastTime h1 span{background-position:-60px -180px;}
+.fr #currently h1 span{background-position:-30px -180px;}
+.fr #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Express*/
+.hmePageExpress #container,.homeExpress{ background-color: #bdd9f7;}
+.hmePageExpress #themeTop, .homeExpress .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170223_int_hmePageExpress_containerTop) 0 0 no-repeat;}
+.hmePageExpress #themeBtm,.homeExpress{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170223_int_hmePageExpress_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeExpress .themeMiddleNormal, .homeExpress .themeMiddleBlur{ background: none;}
+/* Black Segmentation*/
+.hmePageExpress .salesWrapTitle, .homeExpress .wrapperSalesTitle{color:#464650;}
+.hmePageExpress .salesWrapBar, .homeExpress .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageExpress #news h1 span{background-position:0 -150px;}
+.hmePageExpress #lastTime h1 span{background-position:-60px -150px;}
+.hmePageExpress #currently h1 span{background-position:-30px -150px;}
+.hmePageExpress #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageExpress .salesWrapTitle, .homeExpress .wrapperSalesTitle{color:#ffffff;}
+.hmePageExpress .salesWrapBar, .homeExpress .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageExpress #news h1 span{background-position:0 -180px;}
+.hmePageExpress #lastTime h1 span{background-position:-60px -180px;}
+.hmePageExpress #currently h1 span{background-position:-30px -180px;}
+.hmePageExpress #soon h1 span{background-position:-90px -180px;}*/
+
+/* Express FR
+.fr .hmePageExpress #container,.fr .homeExpress{ background-color: #bdd9f7;}
+.fr .hmePageExpress #themeTop, .fr .homeExpress .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170223_int_hmePageExpress_containerTop) 0 0 no-repeat;}
+.fr .hmePageExpress #themeBtm,.fr .homeExpress{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170223_int_hmePageExpress_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeExpress .themeMiddleNormal, .fr .homeExpress .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageExpress .salesWrapTitle, .fr .homeExpress .wrapperSalesTitle{color:#464650;}
+.fr .hmePageExpress .salesWrapBar, .fr .homeExpress .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageExpress #news h1 span{background-position:0 -150px;}
+.fr .hmePageExpress #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageExpress #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageExpress #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageExpress .salesWrapTitle, .fr .homeExpress .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageExpress .salesWrapBar, .fr .homeExpress .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageExpress #news h1 span{background-position:0 -180px;}
+.fr .hmePageExpress #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageExpress #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageExpress #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Mode */
+.hmePageMode #container,.homeFashion{ background-color: #ffffff;}
+.hmePageMode #themeTop, .homeFashion .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20150909_int_hmePageMode_containerTop) 0 0 no-repeat;}
+.hmePageMode #themeBtm,.homeFashion{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20150909_int_hmePageMode_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeFashion .themeMiddleNormal, .homeFashion .themeMiddleBlur{ background: none;}
+/* Black Segmentation*/
+.hmePageMode .salesWrapTitle, .homeFashion .wrapperSalesTitle{color:#464650;}
+.hmePageMode .salesWrapBar, .homeFashion .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageMode #news h1 span{background-position:0 -150px;}
+.hmePageMode #lastTime h1 span{background-position:-60px -150px;}
+.hmePageMode #currently h1 span{background-position:-30px -150px;}
+.hmePageMode #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageMode .salesWrapTitle, .homeFashion .wrapperSalesTitle{color:#ffffff;}
+.hmePageMode .salesWrapBar, .homeFashion .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageMode #news h1 span{background-position:0 -180px;}
+.hmePageMode #lastTime h1 span{background-position:-60px -180px;}
+.hmePageMode #currently h1 span{background-position:-30px -180px;}
+.hmePageMode #soon h1 span{background-position:-90px -180px;}*/
+
+/* Mode FR
+.fr .hmePageMode #container,.fr .homeFashion{ background-color: #006569;}
+.fr .hmePageMode #themeTop, .fr .homeFashion .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerTop) 0 0 no-repeat;}
+.fr .hmePageMode #themeBtm,.fr .homeFashion{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeFashion .themeMiddleNormal, .fr .homeFashion .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageMode .salesWrapTitle, .fr .homeFashion .wrapperSalesTitle{color:#464650;}
+.fr .hmePageMode .salesWrapBar, .fr .homeFashion .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageMode #news h1 span{background-position:0 -150px;}
+.fr .hmePageMode #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageMode #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageMode #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageMode .salesWrapTitle, .fr .homeFashion .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageMode .salesWrapBar, .fr .homeFashion .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageMode #news h1 span{background-position:0 -180px;}
+.fr .hmePageMode #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageMode #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageMode #soon h1 span{background-position:-90px -180px;}*/
+
+/* Mode ES
+.es .hmePageMode #container,.es .homeFashion{ background-color: #006569;}
+.es .hmePageMode #themeTop, .es .homeFashion .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerTop) 0 0 no-repeat;}
+.es .hmePageMode #themeBtm,.es .homeFashion{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .homeFashion .themeMiddleNormal, .es .homeFashion .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.es .hmePageMode .salesWrapTitle, .es .homeFashion .wrapperSalesTitle{color:#464650;}
+.es .hmePageMode .salesWrapBar, .es .homeFashion .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageMode #news h1 span{background-position:0 -150px;}
+.es .hmePageMode #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageMode #currently h1 span{background-position:-30px -150px;}
+.es .hmePageMode #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageMode .salesWrapTitle, .es .homeFashion .wrapperSalesTitle{color:#ffffff;}
+.es .hmePageMode .salesWrapBar, .es .homeFashion .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageMode #news h1 span{background-position:0 -180px;}
+.es .hmePageMode #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageMode #currently h1 span{background-position:-30px -180px;}
+.es .hmePageMode #soon h1 span{background-position:-90px -180px;}*/
+
+/* Mode IT
+.it .hmePageMode #container,.it .homeFashion{ background-color: #006569;}
+.it .hmePageMode #themeTop, .it .homeFashion .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerTop) 0 0 no-repeat;}
+.it .hmePageMode #themeBtm,.it .homeFashion{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMode_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .homeFashion .themeMiddleNormal, .it .homeFashion .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.it .hmePageMode .salesWrapTitle, .it .homeFashion .wrapperSalesTitle{color:#464650;}
+.it .hmePageMode .salesWrapBar, .it .homeFashion .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageMode #news h1 span{background-position:0 -150px;}
+.it .hmePageMode #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageMode #currently h1 span{background-position:-30px -150px;}
+.it .hmePageMode #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.it .hmePageMode .salesWrapTitle, .it .homeFashion .wrapperSalesTitle{color:#ffffff;}
+.it .hmePageMode .salesWrapBar, .it .homeFashion .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageMode #news h1 span{background-position:0 -180px;}
+.it .hmePageMode #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageMode #currently h1 span{background-position:-30px -180px;}
+.it .hmePageMode #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Maison */
+.hmePageMaison #container,.homeHome{ background-color: #dbe7f7;}
+.hmePageMaison #themeTop, .homeHome .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20150909_int_hmePageMaison_containerTop) 0 0 no-repeat;}
+.hmePageMaison #themeBtm,.homeHome{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20150909_int_hmePageMaison_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeHome .themeMiddleNormal, .homeHome .themeMiddleBlur{ background: none;}
+/* Black Segmentation
+.hmePageMaison .salesWrapTitle, .homeHome .wrapperSalesTitle{color:#464650;}
+.hmePageMaison .salesWrapBar, .homeHome .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageMaison #news h1 span{background-position:0 -150px;}
+.hmePageMaison #lastTime h1 span{background-position:-60px -150px;}
+.hmePageMaison #currently h1 span{background-position:-30px -150px;}
+.hmePageMaison #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation*/
+.hmePageMaison .salesWrapTitle, .homeHome .wrapperSalesTitle{color:#ffffff;}
+.hmePageMaison .salesWrapBar, .homeHome .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageMaison #news h1 span{background-position:0 -180px;}
+.hmePageMaison #lastTime h1 span{background-position:-60px -180px;}
+.hmePageMaison #currently h1 span{background-position:-30px -180px;}
+.hmePageMaison #soon h1 span{background-position:-90px -180px;}
+
+/* Maison FR
+.fr .hmePageMaison #container,.fr .homeHome{ background-color: #006569;}
+.fr .hmePageMaison #themeTop, .fr .homeHome .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerTop) 0 0 no-repeat;}
+.fr .hmePageMaison #themeBtm,.fr .homeHome{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeHome .themeMiddleNormal, .fr .homeHome .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageMaison .salesWrapTitle, .fr .homeHome .wrapperSalesTitle{color:#464650;}
+.fr .hmePageMaison .salesWrapBar, .fr .homeHome .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageMaison #news h1 span{background-position:0 -150px;}
+.fr .hmePageMaison #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageMaison #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageMaison #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageMaison .salesWrapTitle,.fr .homeHome .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageMaison .salesWrapBar, .fr .homeHome .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageMaison #news h1 span{background-position:0 -180px;}
+.fr .hmePageMaison #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageMaison #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageMaison #soon h1 span{background-position:-90px -180px;}*/
+
+/* Maison ES
+.es .hmePageMaison #container,.es .homeHome{ background-color: #006569;}
+.es .hmePageMaison #themeTop, .es .homeHome .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerTop) 0 0 no-repeat;}
+.es .hmePageMaison #themeBtm,.es .homeHome{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .homeHome .themeMiddleNormal, .es .homeHome .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.es .hmePageMaison .salesWrapTitle, .es .homeHome .wrapperSalesTitle{color:#464650;}
+.es .hmePageMaison .salesWrapBar, .es .homeHome .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageMaison #news h1 span{background-position:0 -150px;}
+.es .hmePageMaison #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageMaison #currently h1 span{background-position:-30px -150px;}
+.es .hmePageMaison #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageMaison .salesWrapTitle,.es .homeHome .wrapperSalesTitle{color:#ffffff;}
+.es .hmePageMaison .salesWrapBar, .es .homeHome .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageMaison #news h1 span{background-position:0 -180px;}
+.es .hmePageMaison #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageMaison #currently h1 span{background-position:-30px -180px;}
+.es .hmePageMaison #soon h1 span{background-position:-90px -180px;}*/
+
+/* Maison IT
+.it .hmePageMaison #container,.it .homeHome{ background-color: #006569;}
+.it .hmePageMaison #themeTop, .it .homeHome .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerTop) 0 0 no-repeat;}
+.it .hmePageMaison #themeBtm,.it .homeHome{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageMaison_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .homeHome .themeMiddleNormal, .it .homeHome .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.it .hmePageMaison .salesWrapTitle, .it .homeHome .wrapperSalesTitle{color:#464650;}
+.it .hmePageMaison .salesWrapBar, .it .homeHome .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageMaison #news h1 span{background-position:0 -150px;}
+.it .hmePageMaison #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageMaison #currently h1 span{background-position:-30px -150px;}
+.it .hmePageMaison #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.it .hmePageMaison .salesWrapTitle,.it .homeHome .wrapperSalesTitle{color:#ffffff;}
+.it .hmePageMaison .salesWrapBar, .it .homeHome .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageMaison #news h1 span{background-position:0 -180px;}
+.it .hmePageMaison #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageMaison #currently h1 span{background-position:-30px -180px;}
+.it .hmePageMaison #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Vins et Gastronomie */
+.hmePageMiam #container,.homeKitchen-dining-wine{ background-color: #3a3833;}
+.hmePageMiam #themeTop, .homeKitchen-dining-wine .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170220_INT_hmePageWine_containerTop) 0 0 no-repeat;}
+.hmePageMiam #themeBtm,.homeKitchen-dining-wine{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170220_INT_hmePageWine_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeKitchen-dining .themeMiddleNormal, .homeKitchen-dining-wine .themeMiddleBlur{ background: none;}
+/* Black Segmentation
+.hmePageMiam .salesWrapTitle, .homeKitchen-dining-wine .wrapperSalesTitle, .homeKitchen-dining-wine .legalMentions {color:#464650;}
+.hmePageMiamn .salesWrapBar, .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageMiam #news h1 span{background-position:0 -150px;}
+.hmePageMiam #lastTime h1 span{background-position:-60px -150px;}
+.hmePageMiam #currently h1 span{background-position:-30px -150px;}
+.hmePageMiam #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation*/
+.hmePageMiam .salesWrapTitle, .homeKitchen-dining-wine .wrapperSalesTitle, .homeKitchen-dining-wine .legalMentions {color:#ffffff;}
+.hmePageMiam .salesWrapBar, .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageMiam #news h1 span{background-position:0 -180px;}
+.hmePageMiam #lastTime h1 span{background-position:-60px -180px;}
+.hmePageMiam #currently h1 span{background-position:-30px -180px;}
+.hmePageMiam #soon h1 span{background-position:-90px -180px;}
+
+/* Vins et Gastronomie  FR
+.fr .hmePageMiam #container,.fr .homeKitchen-dining-wine{ background-color: #006569;}
+.fr .hmePageMiam #themeTop, .fr .homeKitchen-dining-wine .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerTop) 0 0 no-repeat;}
+.fr .hmePageMiam #themeBtm,.fr .homeKitchen-dining-wine{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeKitchen-dining .themeMiddleNormal, .fr .homeKitchen-dining-wine .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageMiam .salesWrapTitle, .fr .homeKitchen-dining-wine .wrapperSalesTitle, .fr .homeKitchen-dining-wine .legalMentions {color:#464650;}
+.fr .hmePageMiamn .salesWrapBar, .fr .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageMiam #news h1 span{background-position:0 -150px;}
+.fr .hmePageMiam #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageMiam #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageMiam #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageMiam .salesWrapTitle, .fr .homeKitchen-dining-wine .wrapperSalesTitle, .fr .homeKitchen-dining-wine .legalMentions {color:#ffffff;}
+.fr .hmePageMiam .salesWrapBar, .fr .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageMiam #news h1 span{background-position:0 -180px;}
+.fr .hmePageMiam #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageMiam #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageMiam #soon h1 span{background-position:-90px -180px;}*/
+
+/* Vins et Gastronomie  ES
+.es .hmePageMiam #container,.es .homeKitchen-dining-wine{ background-color: #006569;}
+.es .hmePageMiam #themeTop, .es .homeKitchen-dining-wine .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerTop) 0 0 no-repeat;}
+.es .hmePageMiam #themeBtm,.es .homeKitchen-dining-wine{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .homeKitchen-dining .themeMiddleNormal, .es .homeKitchen-dining-wine .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.es .hmePageMiam .salesWrapTitle, .es .homeKitchen-dining-wine .wrapperSalesTitle, .es .homeKitchen-dining-wine .legalMentions {color:#464650;}
+.es .hmePageMiamn .salesWrapBar, .es .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageMiam #news h1 span{background-position:0 -150px;}
+.es .hmePageMiam #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageMiam #currently h1 span{background-position:-30px -150px;}
+.es .hmePageMiam #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageMiam .salesWrapTitle, .es .homeKitchen-dining-wine .wrapperSalesTitle, .es .homeKitchen-dining-wine .legalMentions {color:#ffffff;}
+.es .hmePageMiam .salesWrapBar, .es .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageMiam #news h1 span{background-position:0 -180px;}
+.es .hmePageMiam #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageMiam #currently h1 span{background-position:-30px -180px;}
+.es .hmePageMiam #soon h1 span{background-position:-90px -180px;}*/
+
+/* Vins et Gastronomie  IT
+.it .hmePageMiam #container,.it .homeKitchen-dining-wine{ background-color: #006569;}
+.it .hmePageMiam #themeTop, .it .homeKitchen-dining-wine .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerTop) 0 0 no-repeat;}
+.it .hmePageMiam #themeBtm,.it .homeKitchen-dining-wine{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageWine_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .homeKitchen-dining .themeMiddleNormal, .it .homeKitchen-dining-wine .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.it .hmePageMiam .salesWrapTitle, .it .homeKitchen-dining-wine .wrapperSalesTitle, .it .homeKitchen-dining-wine .legalMentions {color:#464650;}
+.it .hmePageMiamn .salesWrapBar, .it .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageMiam #news h1 span{background-position:0 -150px;}
+.it .hmePageMiam #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageMiam #currently h1 span{background-position:-30px -150px;}
+.it .hmePageMiam #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.it .hmePageMiam .salesWrapTitle, .it .homeKitchen-dining-wine .wrapperSalesTitle, .it .homeKitchen-dining-wine .legalMentions {color:#ffffff;}
+.it .hmePageMiam .salesWrapBar, .it .homeKitchen-dining-wine .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageMiam #news h1 span{background-position:0 -180px;}
+.it .hmePageMiam #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageMiam #currently h1 span{background-position:-30px -180px;}
+.it .hmePageMiam #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Le Loisir */
+.hmePageShow #container,.homeShowtime{ background-color: #d0e7f9;}
+.hmePageShow #themeTop, .homeShowtime .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170201_INT_hmePageShow_containerTop) 0 0 no-repeat;}
+.hmePageShow #themeBtm,.homeShowtime{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170201_INT_hmePageShow_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeShowtime .themeMiddleNormal, .homeShowtime .themeMiddleBlur{ background: none;}
+/* Black Segmentation*/
+.hmePageShow .salesWrapTitle, .homeShowtime .wrapperSalesTitle{color:#464650;}
+.hmePageShow .salesWrapBar, .homeShowtime .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageShow #news h1 span{background-position:0 -150px;}
+.hmePageShow #lastTime h1 span{background-position:-60px -150px;}
+.hmePageShow #currently h1 span{background-position:-30px -150px;}
+.hmePageShow #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageShow .salesWrapTitle, .homeShowtime .wrapperSalesTitle{color:#ffffff;}
+.hmePageShow .salesWrapBar, .homeShowtime .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageShow #news h1 span{background-position:0 -180px;}
+.hmePageShow #lastTime h1 span{background-position:-60px -180px;}
+.hmePageShow #currently h1 span{background-position:-30px -180px;}
+.hmePageShow #soon h1 span{background-position:-90px -180px;}*/
+
+/* Le Loisir FR
+.fr .hmePageShow #container,.fr .homeShowtime{ background-color: #006569;}
+.fr .hmePageShow #themeTop, .fr .homeShowtime .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerTop) 0 0 no-repeat;}
+.fr .hmePageShow #themeBtm,.fr .homeShowtime{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeShowtime .themeMiddleNormal, .fr .homeShowtime .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageShow .salesWrapTitle, .fr .homeShowtime .wrapperSalesTitle{color:#464650;}
+.fr .hmePageShow .salesWrapBar, .homeShowtime .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageShow #news h1 span{background-position:0 -150px;}
+.fr .hmePageShow #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageShow #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageShow #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageShow .salesWrapTitle, .fr .homeShowtime .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageShow .salesWrapBar, .fr .homeShowtime .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageShow #news h1 span{background-position:0 -180px;}
+.fr .hmePageShow #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageShow #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageShow #soon h1 span{background-position:-90px -180px;}*/
+
+/* Le Loisir ES
+.es .hmePageShow #container,.es .homeShowtime{ background-color: #006569;}
+.es .hmePageShow #themeTop, .es .homeShowtime .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerTop) 0 0 no-repeat;}
+.es .hmePageShow #themeBtm,.es .homeShowtime{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .homeShowtime .themeMiddleNormal, .es .homeShowtime .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.es .hmePageShow .salesWrapTitle, .es .homeShowtime .wrapperSalesTitle{color:#464650;}
+.es .hmePageShow .salesWrapBar, .homeShowtime .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageShow #news h1 span{background-position:0 -150px;}
+.es .hmePageShow #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageShow #currently h1 span{background-position:-30px -150px;}
+.es .hmePageShow #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageShow .salesWrapTitle, .es .homeShowtime .wrapperSalesTitle{color:#ffffff;}
+.es .hmePageShow .salesWrapBar, .es .homeShowtime .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageShow #news h1 span{background-position:0 -180px;}
+.es .hmePageShow #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageShow #currently h1 span{background-position:-30px -180px;}
+.es .hmePageShow #soon h1 span{background-position:-90px -180px;}*/
+
+/* Le Loisir IT
+.it .hmePageShow #container,.it .homeShowtime{ background-color: #006569;}
+.it .hmePageShow #themeTop, .it .homeShowtime .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerTop) 0 0 no-repeat;}
+.it .hmePageShow #themeBtm,.it .homeShowtime{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageShow_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .homeShowtime .themeMiddleNormal, .it .homeShowtime .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.it .hmePageShow .salesWrapTitle, .it .homeShowtime .wrapperSalesTitle{color:#464650;}
+.it .hmePageShow .salesWrapBar, .homeShowtime .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageShow #news h1 span{background-position:0 -150px;}
+.it .hmePageShow #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageShow #currently h1 span{background-position:-30px -150px;}
+.it .hmePageShow #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.it .hmePageShow .salesWrapTitle, .it .homeShowtime .wrapperSalesTitle{color:#ffffff;}
+.it .hmePageShow .salesWrapBar, .it .homeShowtime .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageShow #news h1 span{background-position:0 -180px;}
+.it .hmePageShow #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageShow #currently h1 span{background-position:-30px -180px;}
+.it .hmePageShow #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Voyage */
+.hmePageVvp #container,.homeTravel{ background-color: #d1e1eb;}
+.hmePageVvp #themeTop, .homeTravel .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170828_INT_hmePageVvp_containerTop) 0 0 no-repeat;}
+.hmePageVvp #themeBtm,.homeTravel{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170828_INT_hmePageVvp_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.hmePageVvp #themeMiddle,.homeTravel .themeMiddleNormal{ display: block; background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170828_INT_hmePageVvp_containerMiddle?$PNG$) no-repeat;opacity: 1;}
+.homeTravel .themeMiddleBlur { display: block; background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170828_INT_hmePageVvp_containerMiddle?$PNG$&qlt=80&op_blur=20) no-repeat;}
+/*.hmePageVvp #themeMiddle,.homeTravel .themeMiddleNormal{ display: block; background: none;}
+.homeTravel .themeMiddleBlur { display: block; background: none;}*/
+/* Black Segmentation*/
+.hmePageVvp .salesWrapTitle, .homeTravel .wrapperSalesTitle {color:#464650;}
+.hmePageVvp .salesWrapBar, .homeTravel .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageVvp #news h1 span{background-position:0 -150px;}
+.hmePageVvp #lastTime h1 span{background-position:-60px -150px;}
+.hmePageVvp #currently h1 span{background-position:-30px -150px;}
+.hmePageVvp #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageVvp .salesWrapTitle, .homeTravel .wrapperSalesTitle {color:#ffffff;}
+.hmePageVvp .salesWrapBar, .homeTravel .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageVvp #news h1 span{background-position:0 -180px;}
+.hmePageVvp #lastTime h1 span{background-position:-60px -180px;}
+.hmePageVvp #currently h1 span{background-position:-30px -180px;}
+.hmePageVvp #soon h1 span{background-position:-90px -180px;}*/
+
+/* Voyage FR
+.fr .hmePageVvp #container,.fr .homeTravel{ background-color: #003366;}
+.fr .hmePageVvp #themeTop, .fr .homeTravel .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171127_INT_hmePageVvp_containerTop) 0 0 no-repeat;}
+.fr .hmePageVvp #themeBtm,.fr .homeTravel{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171127_INT_hmePageVvp_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .hmePageVvp #themeMiddle,.fr .homeTravel .themeMiddleNormal{ display: block; background: none;}
+.fr .homeTravel .themeMiddleBlur{ display: block; background: none;} */
+/* Black Segmentation
+.fr .hmePageVvp .salesWrapTitle, .fr .homeTravel .wrapperSalesTitle {color:#464650;}
+.fr .hmePageVvp .salesWrapBar, .fr .homeTravel .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageVvp #news h1 span{background-position:0 -150px;}
+.fr .hmePageVvp #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageVvp #currently h1 span{background-position:-30px -150px;}
+.fr .fr .hmePageVvp #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageVvp .salesWrapTitle, .fr .homeTravel .wrapperSalesTitle {color:#ffffff;}
+.fr .hmePageVvp .salesWrapBar, .fr .homeTravel .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageVvp #news h1 span{background-position:0 -180px;}
+.fr .hmePageVvp #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageVvp #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageVvp #soon h1 span{background-position:-90px -180px;}*/
+
+/* Voyage ES
+.es .hmePageVvp #container,.es .homeTravel{ background-color: #006569;}
+.es .hmePageVvp #themeTop, .es .homeTravel .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageVvp_containerTop) 0 0 no-repeat;}
+.es .hmePageVvp #themeBtm,.es .homeTravel{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageVvp_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .hmePageVvp #themeMiddle,.es .homeTravel .themeMiddleNormal{ display: block; background: none;}
+.es .homeTravel .themeMiddleBlur{ display: block; background: none;} */
+/* Black Segmentation
+.es .hmePageVvp .salesWrapTitle, .es .homeTravel .wrapperSalesTitle {color:#464650;}
+.es .hmePageVvp .salesWrapBar, .es .homeTravel .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageVvp #news h1 span{background-position:0 -150px;}
+.es .hmePageVvp #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageVvp #currently h1 span{background-position:-30px -150px;}
+.es .es .hmePageVvp #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageVvp .salesWrapTitle, .es .homeTravel .wrapperSalesTitle {color:#ffffff;}
+.es .hmePageVvp .salesWrapBar, .es .homeTravel .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageVvp #news h1 span{background-position:0 -180px;}
+.es .hmePageVvp #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageVvp #currently h1 span{background-position:-30px -180px;}
+.es .hmePageVvp #soon h1 span{background-position:-90px -180px;}*/
+
+/* Voyage IT
+.it .hmePageVvp #container,.it .homeTravel{ background-color: #006569;}
+.it .hmePageVvp #themeTop, .it .homeTravel .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageVvp_containerTop) 0 0 no-repeat;}
+.it .hmePageVvp #themeBtm,.it .homeTravel{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_INT_hmePageVvp_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .hmePageVvp #themeMiddle,.it .homeTravel .themeMiddleNormal{ display: block; background: none;}
+.it .homeTravel .themeMiddleBlur{ display: block; background: none;} */
+/* Black Segmentation
+.it .hmePageVvp .salesWrapTitle, .it .homeTravel .wrapperSalesTitle {color:#464650;}
+.it .hmePageVvp .salesWrapBar, .it .homeTravel .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageVvp #news h1 span{background-position:0 -150px;}
+.it .hmePageVvp #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageVvp #currently h1 span{background-position:-30px -150px;}
+.it .it .hmePageVvp #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.it .hmePageVvp .salesWrapTitle, .it .homeTravel .wrapperSalesTitle {color:#ffffff;}
+.it .hmePageVvp .salesWrapBar, .it .homeTravel .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageVvp #news h1 span{background-position:0 -180px;}
+.it .hmePageVvp #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageVvp #currently h1 span{background-position:-30px -180px;}
+.it .hmePageVvp #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Event
+.hmePageEvent #container,.homeEvent{ background-color: #04091d;}
+.hmePageEvent #themeTop, .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170901_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.hmePageEvent #themeBtm,.homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170901_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeEvent .themeMiddleNormal, .homeEvent .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.hmePageEvent .salesWrapTitle, .homeEvent .wrapperSalesTitle{color:#464650;}
+.hmePageEvent .salesWrapBar, .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageEvent #news h1 span{background-position:0 -150px;}
+.hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.hmePageEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.hmePageEvent .salesWrapTitle, .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.hmePageEvent .salesWrapBar, .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageEvent #news h1 span{background-position:0 -180px;}
+.hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.hmePageEvent #soon h1 span{background-position:-90px -180px;}*/
+
+/* Event FR */
+.fr .hmePageEvent #container, .fr .homeEvent{ background-color: #00918c;}
+.fr .hmePageEvent #themeTop, .fr .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171030_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.fr .hmePageEvent #themeBtm,.fr .homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171030_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeEvent .themeMiddleNormal, .fr .homeEvent .themeMiddleBlur{ background: none;}
+/* Black Segmentation
+.fr .hmePageEvent .salesWrapTitle, .fr .homeEvent .wrapperSalesTitle{color:#464650;}
+.fr .hmePageEvent .salesWrapBar, .fr .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageEvent #news h1 span{background-position:0 -150px;}
+.fr .hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation */
+.fr .hmePageEvent .salesWrapTitle, .fr .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageEvent .salesWrapBar, .fr .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageEvent #news h1 span{background-position:0 -180px;}
+.fr .hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageEvent #soon h1 span{background-position:-90px -180px;}
+
+/* Event ES
+.es .hmePageEvent #container,.es .homeEvent{ background-color: #006569;}
+.es .hmePageEvent #themeTop,.es .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.es .hmePageEvent #themeBtm,.es .homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171201_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.es .homeEvent .themeMiddleNormal, .es .homeEvent .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.es .hmePageEvent .salesWrapTitle, .es .homeEvent .wrapperSalesTitle{color:#464650;}
+.es .hmePageEvent .salesWrapBar, .es .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.es .hmePageEvent #news h1 span{background-position:0 -150px;}
+.es .hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.es .hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.es .hmePageEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.es .hmePageEvent .salesWrapTitle, .es .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.es .hmePageEvent .salesWrapBar, .es .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.es .hmePageEvent #news h1 span{background-position:0 -180px;}
+.es .hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.es .hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.es .hmePageEvent #soon h1 span{background-position:-90px -180px;}*/
+
+/* Event IT*/
+.it .hmePageEvent #container,.it .homeEvent{ background-color: #f0b5d2;}
+.it .hmePageEvent #themeTop, .it .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171108_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.it .hmePageEvent #themeBtm,.it .homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171108_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.it .homeEvent .themeMiddleNormal, .it .homeEvent .themeMiddleBlur{ background: none;}
+/* Black Segmentation*/
+.it .hmePageEvent .salesWrapTitle, .it .homeEvent .wrapperSalesTitle{color:#464650;}
+.it .hmePageEvent .salesWrapBar, .it .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.it .hmePageEvent #news h1 span{background-position:0 -150px;}
+.it .hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.it .hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.it .hmePageEvent #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.it .hmePageEvent .salesWrapTitle, .it .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.it .hmePageEvent .salesWrapBar, .it .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.it .hmePageEvent #news h1 span{background-position:0 -180px;}
+.it .hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.it .hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.it .hmePageEvent #soon h1 span{background-position:-90px -180px;}*/
+
+/* Event DE
+.de .hmePageEvent #container, .de .homeEvent{ background-color: #ffffff;}
+.de .hmePageEvent #themeTop, .de .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170526_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.de .hmePageEvent #themeBtm,.de .homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170526_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.de .homeEvent .themeMiddleNormal, .de .homeEvent .themeMiddleBlur{ background: none;} */
+/* Black Segmentation
+.de .hmePageEvent .salesWrapTitle, .de .homeEvent .wrapperSalesTitle{color:#464650;}
+.de .hmePageEvent .salesWrapBar, .de .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.de .hmePageEvent #news h1 span{background-position:0 -150px;}
+.de .hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.de .hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.de .hmePageEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.de .hmePageEvent .salesWrapTitle, .de .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.de .hmePageEvent .salesWrapBar, .de .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.de .hmePageEvent #news h1 span{background-position:0 -180px;}
+.de .hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.de .hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.de .hmePageEvent #soon h1 span{background-position:-90px -180px;}*/
+
+/* Event AT
+.at .hmePageEvent #container, .at .homeEvent{ background-color: #ffffff;}
+.at .hmePageEvent #themeTop, .at .homeEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170526_int_hmePageEvent_containerTop) 0 0 no-repeat;}
+.at .hmePageEvent #themeBtm,.at .homeEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170526_int_hmePageEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.at .homeEvent .themeMiddleNormal, .at .homeEvent .themeMiddleBlur{ background: none;} */
+/* Black Segmentation
+.at .hmePageEvent .salesWrapTitle, .at .homeEvent .wrapperSalesTitle{color:#464650;}
+.at .hmePageEvent .salesWrapBar, .at .homeEvent .wrapperSalesTitle::after{background-color: #464650;}
+.at .hmePageEvent #news h1 span{background-position:0 -150px;}
+.at .hmePageEvent #lastTime h1 span{background-position:-60px -150px;}
+.at .hmePageEvent #currently h1 span{background-position:-30px -150px;}
+.at .hmePageEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.at .hmePageEvent .salesWrapTitle, .at .homeEvent .wrapperSalesTitle{color:#ffffff;}
+.at .hmePageEvent .salesWrapBar, .at .homeEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.at .hmePageEvent #news h1 span{background-position:0 -180px;}
+.at .hmePageEvent #lastTime h1 span{background-position:-60px -180px;}
+.at .hmePageEvent #currently h1 span{background-position:-30px -180px;}
+.at .hmePageEvent #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* KidsCorner */
+.hmePageKidsCorner #container,.homeKidsCorner{ background-color: #f9e5e6;}
+.hmePageKidsCorner #themeTop, .homeKidsCorner .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171023_int_hmePageKidsCorner_containerTop) 0 0 no-repeat;}
+.hmePageKidsCorner #themeBtm,.homeKidsCorner{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171023_int_hmePageKidsCorner_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeKidsCorner .themeMiddleNormal, .homeKidsCorner .themeMiddleBlur{ background: none;}
+/* Black Segmentation */
+.hmePageKidsCorner .salesWrapTitle, .homeKidsCorner .wrapperSalesTitle{color:#464650;}
+.hmePageKidsCorner .salesWrapBar, .homeKidsCorner .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageKidsCorner #news h1 span{background-position:0 -150px;}
+.hmePageKidsCorner #lastTime h1 span{background-position:-60px -150px;}
+.hmePageKidsCorner #currently h1 span{background-position:-30px -150px;}
+.hmePageKidsCorner #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageKidsCorner .salesWrapTitle, .homeKidsCorner .wrapperSalesTitle{color:#ffffff;}
+.hmePageKidsCorner .salesWrapBar, .homeKidsCorner .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageKidsCorner #news h1 span{background-position:0 -180px;}
+.hmePageKidsCorner #lastTime h1 span{background-position:-60px -180px;}
+.hmePageKidsCorner #currently h1 span{background-position:-30px -180px;}
+.hmePageKidsCorner #soon h1 span{background-position:-90px -180px;}*/
+
+/* KidsCorner FR
+.fr .hmePageKidsCorner #container, .fr .homeKidsCorner{ background-color: #eff9f8;}
+.fr .hmePageKidsCorner #themeTop, .fr .homeKidsCorner .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20170418_int_hmePageKidsCorner_containerTop) 0 0 no-repeat;}
+.fr .hmePageKidsCorner #themeBtm,.fr .homeKidsCorner{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20170418_int_hmePageKidsCorner_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeKidsCorner .themeMiddleNormal, .fr .homeKidsCorner .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageKidsCorner .salesWrapTitle, .fr .homeKidsCorner .wrapperSalesTitle{color:#464650;}
+.fr .hmePageKidsCorner .salesWrapBar, .fr .homeKidsCorner .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageKidsCorner #news h1 span{background-position:0 -150px;}
+.fr .hmePageKidsCorner #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageKidsCorner #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageKidsCorner #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageKidsCorner .salesWrapTitle, .fr .homeKidsCorner .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageKidsCorner .salesWrapBar, .fr .homeKidsCorner .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageKidsCorner #news h1 span{background-position:0 -180px;}
+.fr .hmePageKidsCorner #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageKidsCorner #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageKidsCorner #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* Autour de Moi */
+.hmePageAroundMe #container,.homeAroundme{ background-color: #d4c8ed;}
+.hmePageAroundMe #themeTop, .homeAroundme .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20160722_int_hmePageAroundMe_containerTop) 0 0 no-repeat;}
+.hmePageAroundMe #themeBtm,.homeAroundme{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20160722_int_hmePageAroundMe_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeAroundme .themeMiddleNormal, .homeAroundme .themeMiddleBlur{ background: none;}
+/* Black Segmentation*/
+.hmePageAroundMe .salesWrapTitle, .homeAroundme .wrapperSalesTitle{color:#464650;}
+.hmePageAroundMe .salesWrapBar, .homeAroundme .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageAroundMe #news h1 span{background-position:0 -150px;}
+.hmePageAroundMe #lastTime h1 span{background-position:-60px -150px;}
+.hmePageAroundMe #currently h1 span{background-position:-30px -150px;}
+.hmePageAroundMe #soon h1 span{background-position:-90px -150px;}
+/* White Segmentation
+.hmePageAroundMe .salesWrapTitle, .homeAroundme .wrapperSalesTitle{color:#ffffff;}
+.hmePageAroundMe .salesWrapBar, .homeAroundme .wrapperSalesTitle::after{background-color: #ffffff;}
+.hmePageAroundMe #news h1 span{background-position:0 -180px;}
+.hmePageAroundMe #lastTime h1 span{background-position:-60px -180px;}
+.hmePageAroundMe #currently h1 span{background-position:-30px -180px;}
+.hmePageAroundMe #soon h1 span{background-position:-90px -180px;}*/
+
+/* Autour de Moi FR
+.fr .hmePageAroundMe #container,.fr .homeAroundme{ background-color: #d4c8ed;}
+.fr .hmePageAroundMe #themeTop, .fr .homeAroundme .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20160722_int_hmePageAroundMe_containerTop) 0 0 no-repeat;}
+.fr .hmePageAroundMe #themeBtm,.fr .homeAroundme{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20160722_int_hmePageAroundMe_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeAroundme .themeMiddleNormal, .fr .homeAroundme .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageAroundMe .salesWrapTitle, .fr .homeAroundme .wrapperSalesTitle{color:#464650;}
+.fr .hmePageAroundMe .salesWrapBar, .fr .homeAroundme .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageAroundMe #news h1 span{background-position:0 -150px;}
+.fr .hmePageAroundMe #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageAroundMe #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageAroundMe #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageAroundMe .salesWrapTitle, .fr .homeAroundme .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageAroundMe .salesWrapBar, .fr .homeAroundme .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageAroundMe #news h1 span{background-position:0 -180px;}
+.fr .hmePageAroundMe #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageAroundMe #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageAroundMe #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/* SpecialEvent */
+.hmePageSpecialEvent #container,.homeSpecialEvent{ background-color: #4c789d;}
+.hmePageSpecialEvent #themeTop, .homeSpecialEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20171012_int_hmePageSpecialEvent_containerTop) 0 0 no-repeat;}
+.hmePageSpecialEvent #themeBtm,.homeSpecialEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20171012_int_hmePageSpecialEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.homeSpecialEvent .themeMiddleNormal, .homeSpecialEvent .themeMiddleBlur{ background: none;}
+/* Black Segmentation
+.hmePageSpecialEvent .salesWrapTitle, .homeSpecialEvent .wrapperSalesTitle{color:#464650;}
+.hmePageSpecialEvent .salesWrapBar, .homeSpecialEvent .wrapperSalesTitle::after{background-color: #464650;}
+.hmePageSpecialEvent #news h1 span{background-position:0 -150px;}
+.hmePageSpecialEvent #lastTime h1 span{background-position:-60px -150px;}
+.hmePageSpecialEvent #currently h1 span{background-position:-30px -150px;}
+.hmePageSpecialEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation*/
+.hmePageSpecialEvent .salesWrapTitle, .homeSpecialEvent .wrapperSalesTitle, .homeSpecialEvent .topProductsTitle{color:#ffffff;}
+.hmePageSpecialEvent .salesWrapBar, .homeSpecialEvent .wrapperSalesTitle::after, .homeSpecialEvent .topProductsTitle:after, .homeSpecialEvent .topProductsTitle:before{background-color: #ffffff;}
+.hmePageSpecialEvent #news h1 span{background-position:0 -180px;}
+.hmePageSpecialEvent #lastTime h1 span{background-position:-60px -180px;}
+.hmePageSpecialEvent #currently h1 span{background-position:-30px -180px;}
+.hmePageSpecialEvent #soon h1 span{background-position:-90px -180px;}
+.homeSpecialEvent .carouselArrow > i{ color: #fff; }
+.homeSpecialEvent .topProductsWrapper .carouselDots li.active{background-color: #fff;}
+
+/* SpecialEvent FR
+.fr .hmePageSpecialEvent #container,.fr .homeSpecialEvent{ background-color: #ffdaa6;}
+.fr .hmePageSpecialEvent #themeTop, .fr .homeSpecialEvent .themeTop{ background: url(//vp-eu.scene7.com/is//image/vpeu/00_20161208_int_hmePageSpecialEvent_containerTop) 0 0 no-repeat;}
+.fr .hmePageSpecialEvent #themeBtm,.fr .homeSpecialEvent{ background-image: url(//vp-eu.scene7.com/is//image/vpeu/00_20161208_int_hmePageSpecialEvent_containerBtm);background-position: 0 bottom;background-repeat: no-repeat;}
+.fr .homeSpecialEvent .themeMiddleNormal, .fr .homeSpecialEvent .themeMiddleBlur{ background: none;}*/
+/* Black Segmentation
+.fr .hmePageSpecialEvent .salesWrapTitle, .fr .homeSpecialEvent .wrapperSalesTitle{color:#464650;}
+.fr .hmePageSpecialEvent .salesWrapBar, .fr .homeSpecialEvent .wrapperSalesTitle::after{background-color: #464650;}
+.fr .hmePageSpecialEvent #news h1 span{background-position:0 -150px;}
+.fr .hmePageSpecialEvent #lastTime h1 span{background-position:-60px -150px;}
+.fr .hmePageSpecialEvent #currently h1 span{background-position:-30px -150px;}
+.fr .hmePageSpecialEvent #soon h1 span{background-position:-90px -150px;}*/
+/* White Segmentation
+.fr .hmePageSpecialEvent .salesWrapTitle, .fr .homeSpecialEvent .wrapperSalesTitle{color:#ffffff;}
+.fr .hmePageSpecialEvent .salesWrapBar, .fr .homeSpecialEvent .wrapperSalesTitle::after{background-color: #ffffff;}
+.fr .hmePageSpecialEvent #news h1 span{background-position:0 -180px;}
+.fr .hmePageSpecialEvent #lastTime h1 span{background-position:-60px -180px;}
+.fr .hmePageSpecialEvent #currently h1 span{background-position:-30px -180px;}
+.fr .hmePageSpecialEvent #soon h1 span{background-position:-90px -180px;}*/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
